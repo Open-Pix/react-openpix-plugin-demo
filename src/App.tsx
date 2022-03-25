@@ -31,7 +31,7 @@ const App = () => {
     ]);
   };
 
-  const isOpenPixLoaded = !!window.$openpix;
+  const isOpenPixLoaded = !!window.$openpix && !!window.$openpix.push;
 
   useEffect(() => {
     if (isOpenPixLoaded) {
