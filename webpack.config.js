@@ -48,15 +48,22 @@ module.exports = {
     ],
   },
   devServer: {
-    contentBase: outputPath,
-    disableHostCheck: true,
+    static: {
+      directory: outputPath,
+    },
+    allowedHosts: 'all',
     historyApiFallback: {
       disableDotRule: true,
     },
     hot: true,
-    hotOnly: false,
     compress: true,
     open: true,
+    client: {
+      overlay: {
+        errors: true,
+        warnings: false,
+      },
+    },
     port: PORT,
   },
   plugins: [
