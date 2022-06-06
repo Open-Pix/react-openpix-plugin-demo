@@ -36,7 +36,7 @@
     "@types/hard-source-webpack-plugin": "1.0.4",
     "@types/isomorphic-fetch": "^0.0.36",
     "@types/qrcode.react": "^1.0.2",
-    "@types/react": "18.0.9",
+    "@types/react": "18.0.12",
     "@types/react-dom": "18.0.5",
     "@types/rebass": "^4.0.10",
     "@types/styled-components": "^5.1.25",
