@@ -51,13 +51,12 @@ module.exports = {
     static: {
       directory: outputPath,
     },
-    allowedHosts: 'all',
+    allowedHosts: ['all'],
     historyApiFallback: {
       disableDotRule: true,
     },
     hot: true,
     compress: true,
-    open: true,
     client: {
       overlay: {
         errors: true,
