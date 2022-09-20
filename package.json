@@ -45,7 +45,7 @@
     "@types/unused-files-webpack-plugin": "3.4.3",
     "@types/webpack-dev-server": "4.7.2",
     "@types/webpack-plugin-serve": "1.4.2",
-    "@webpack-cli/serve": "1.6.1",
+    "@webpack-cli/serve": "1.7.0",
     "autodll-webpack-plugin": "^0.4.2",
     "babel-loader": "8.2.5",
     "cache-loader": "4.1.0",
